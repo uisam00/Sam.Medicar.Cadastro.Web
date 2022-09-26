@@ -38,13 +38,13 @@
           <li class="list-group-item">
             <div class="row">
               <div class="col-6 text-center border-right">
-                <div class="h5">0</div>
-                <div class="h6 text-muted">Meus Eventos Criados</div>
+                <div class="h5">{{ usuario.qtdConsultas?.consultasRealizadas }}</div>
+                <div class="h6 text-muted">Consultas Realizadas</div>
               </div>
               <div class="col-6 text-center">
-                <div class="h5">0</div>
+                <div class="h5">{{ usuario.qtdConsultas?.consultasPendentes }}</div>
                 <div class="h6 text-muted">
-                  Eventos como Participante
+                  Consultas Pendentes
                 </div>
               </div>
             </div>

@@ -74,6 +74,7 @@ export class PerfilDetalheComponent implements OnInit {
         estadoCivil: ['NaoInformado', Validators.required],
         password: ['', [Validators.minLength(4), Validators.nullValidator]],
         confirmePassword: ['', Validators.nullValidator],
+        qtdConsultas: [''],
       },
       formOptions
     );

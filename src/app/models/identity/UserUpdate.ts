@@ -1,3 +1,5 @@
+import { QtdConsultas } from "./qtdConsultas";
+
 export class UserUpdate {
   userName: string;
   primeiroNome: string;
@@ -10,4 +12,5 @@ export class UserUpdate {
   imagemURL: string;
   accessToken?: string;
   refreshToken?: string;
+  qtdConsultas?: QtdConsultas;
 }
